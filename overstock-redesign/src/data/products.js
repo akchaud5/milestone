@@ -1,0 +1,27 @@
+export const products = [
+  {
+    id: 1,
+    name: "Modern Wooden Dining Table",
+    style: "Modern",
+    seats: 6,
+    price: 449.99,
+    image: "https://modern1furniture.com/wp-content/uploads/2022/07/lancer-wood-modern-dining-table-by-cattelan-italia-1.jpg",
+    description: "Sleek modern dining table for 6.",
+    rating: 4,
+    reviews: [
+      { user: "Jane", rating: 4, comment: "Stylish and sturdy!" },
+      { user: "Mike", rating: 5, comment: "Perfect for our dining room." },
+    ],
+  },
+  {
+    id: 2,
+    name: "Rustic Oak Dining Table",
+    style: "Rustic",
+    seats: 8,
+    price: 599.99,
+    image: "https://d9dvmj2a7k2dc.cloudfront.net/catalog/product/cache/1/image/730x730/17f82f742ffe127f42dca9de82fb58b1/d/8/d841-35-03_4_04_2_80-81_asl20241.webp",
+    description: "Rustic table for larger gatherings.",
+    rating: 3,
+    reviews: [{ user: "Sarah", rating: 3, comment: "Nice but heavy." }],
+  },
+];
