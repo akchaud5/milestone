@@ -24,4 +24,17 @@ export const products = [
     rating: 3,
     reviews: [{ user: "Sarah", rating: 3, comment: "Nice but heavy." }],
   },
+  {
+    id: 3,
+    name: "Modern Floor Lamp",
+    style: "Modern",
+    category: "Decor & Lighting",
+    price: 79.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_hbjWZkgyJL1WOLZpFPa_f4t8nQoJ5CJRMg&s",
+    description: "A sleek modern floor lamp to brighten your space.",
+    rating: 4,
+    reviews: [
+      { user: "Alex", rating: 4, comment: "Looks great in my living room!" },
+    ],
+  },
 ];

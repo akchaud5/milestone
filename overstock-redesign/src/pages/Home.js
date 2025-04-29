@@ -1,3 +1,6 @@
+
+
+
 import { Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import { products } from '../data/products';
@@ -39,7 +42,7 @@ function Home({ cartItems, setCartItems }) {
 
       {/* Featured Products */}
       <section className="featured-products">
-        <h2>Featured Dining Tables</h2>
+        <h2>Featured Products</h2>
         <div className="product-grid">
           {products.map((product) => (
             <ProductCard
