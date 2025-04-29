@@ -13,7 +13,7 @@ export const products = [
       { user: "Mike", rating: 5, comment: "Perfect for our dining room." },
     ],
   },
-  {
+  { 
     id: 2,
     name: "Rustic Oak Dining Table",
     style: "Rustic",
