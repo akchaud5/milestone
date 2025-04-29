@@ -24,7 +24,7 @@ function Cart({ cartItems, setCartItems }) {
   );
 
   return (
-    <div className="cart">
+    <div className = "cart">
       <h1>Your Cart</h1>
       {cartItems.length === 0 ? (
         <p>Your cart is empty. <Link to="/">Continue shopping</Link>.</p>
